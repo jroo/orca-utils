@@ -1,5 +1,5 @@
 # Controlling mGB with Orca 
-## MIDI CC Commands   
+## MIDI CC Commands  
 
 Reference table for sending [Orca](https://github.com/hundredrabbits/Orca) MIDI CC messages to control [mGB](https://github.com/trash80/mGB)
 
