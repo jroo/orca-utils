@@ -1,6 +1,8 @@
 # Controlling mGB with Orca 
 ## MIDI CC Commands  
 
+**[EXAMPLE .orca file](mgb-midicc-commands-examples.orca)**
+
 Reference table for sending [Orca](https://github.com/hundredrabbits/Orca) MIDI CC messages to control [mGB](https://github.com/trash80/mGB)
 
 Be sure to set your CC offset in Orca to zero with the `cc:0` command. If you don't do this, commands will be sent to `CC64` and above. In order to send a sustain command on CC64, you'll need to set the offset back to 64 with the `cc:64` command.
