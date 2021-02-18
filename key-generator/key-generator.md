@@ -12,19 +12,18 @@ The `r` variable holds the value to the root note that will be generated. Assign
 
 | `r` | note |
 | --- | ---  |
-|  0  |  C   |
-|  1  |  c   |
-|  2  |  D   |
-|  3  |  d   |
-|  4  |  E   |
-|  5  |  F   |
-|  6  |  f   |
-|  7  |  G   |
-|  8  |  g   |
-|  9  |  A   |
-|  a  |  a   |
-|  b  |  B   |
-|  c  |  C   |
+|  0  |  A   |
+|  1  |  a   |
+|  2  |  B   |
+|  3  |  C   |
+|  4  |  c   |
+|  5  |  D   |
+|  6  |  d   |
+|  7  |  E   |
+|  8  |  F   |
+|  9  |  f   |
+|  a  |  G   |
+|  b  |  g   |
 
 The value set in the `k` variable will determine if the key is major or minor. `1` sets the key to major and `0` sets it to minor. 
 
@@ -36,7 +35,7 @@ The value set in the `k` variable will determine if the key is major or minor. `
 The code below will set the key to E minor.
 
 ```
-rV4.#.root.#
+rV7.#.root.#
 kV0.#.key..#
 ```
 #### Using the variables created
@@ -44,16 +43,15 @@ kV0.#.key..#
 Eight variables are created with the names `0`, `1`, `2`, `3`, `4`, `5`, `6`, `7`. Each of these holds a value that is a **"universal position"**, or the number of half steps 
 the note is above C. 
 
-|Position|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|
-|---     |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|Note    |C|c|D|d|E|F|f|G|g|A|a|B|C|c|D|d|E|F|f|G|g|A|a|B|C|
-
+|Position|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|
+|---     |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|Note    |A|a|B|C|c|D|d|E|F|f|G|g|A|a|B|C|c|D|d|E|F|f|G|g|
 
 #### Playing a scale
 
-The following block of code will loop through and play a scale of all of the notes generated.
+The following block of code will set the key to G major and play a scale of all of the notes generated.
 ```
-rV5.#.root.#.............................................
+rVa.#.root.#.............................................
 kV1.#.key.#................Vk..............Vk....Vk......
 ........................Vr.1............Vr.1..Vr.1.......
 ...............Vr...Vr..5A3J...Vr...Vr..5A8J..5AaJ...Vr..
@@ -79,5 +77,3 @@ pV4......................................................
 ..D43JJ..................................................
 ...%13C8f................................................
 ```
-
-
