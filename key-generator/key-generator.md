@@ -4,7 +4,7 @@ Given a root and a key, create eight variables to hold each note in the key.
 
 ## Usage
 
-In [example.orca](./key-generator.orca), use the code between `# set key #` and `# end #` to generate the variables that store the notes in a key.
+In [key-generator.orca](./key-generator.orca), use the code between `# set key #` and `# end #` to generate the variables that store the notes in a key.
 
 #### Setting the key
 
